@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\extdaad\\Desktop\\user_creation\\Login\\Login.csproj": {}
+    "C:\\Users\\Windows\\OneDrive\\Desktop\\user\\user\\Security\\user_creation\\Login\\Login.csproj": {}
   },
   "projects": {
-    "C:\\Users\\extdaad\\Desktop\\user_creation\\Login\\Login.csproj": {
+    "C:\\Users\\Windows\\OneDrive\\Desktop\\user\\user\\Security\\user_creation\\Login\\Login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\extdaad\\Desktop\\user_creation\\Login\\Login.csproj",
+        "projectUniqueName": "C:\\Users\\Windows\\OneDrive\\Desktop\\user\\user\\Security\\user_creation\\Login\\Login.csproj",
         "projectName": "Login",
-        "projectPath": "C:\\Users\\extdaad\\Desktop\\user_creation\\Login\\Login.csproj",
-        "packagesPath": "C:\\Users\\extdaad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\extdaad\\Desktop\\user_creation\\Login\\obj\\",
+        "projectPath": "C:\\Users\\Windows\\OneDrive\\Desktop\\user\\user\\Security\\user_creation\\Login\\Login.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Windows\\OneDrive\\Desktop\\user\\user\\Security\\user_creation\\Login\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\extdaad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -106,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

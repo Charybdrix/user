@@ -1,5 +1,7 @@
 using Login.Data;
 using Login.Profiles;
+using Login.Repository.AdminRepository;
+using Login.Repository.UserRepository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +18,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"));
 });
 
+builder.Services.AddScoped<IUserRepository,UserRepository>();
 builder.Services.AddAutoMapper(typeof(UserProfiles).Assembly);
+builder.Services.AddScoped<IAdminRepository,AdminRepository>();
+builder.Services.AddAutoMapper(typeof(AdminProfiles).Assembly);
 
 var app = builder.Build();
 
